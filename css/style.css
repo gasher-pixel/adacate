@@ -1,0 +1,45 @@
+ul {
+    list-style: none;
+}
+
+a {
+text-decoration: none;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-nav-list li {
+    text-transform: uppercase;
+}
+
+.header-nav-list li a {
+    color: #8c8c8c;
+}
+
+.header-nav-list li a:hover {
+    color: #03a3f3;
+}
+
+.hobby-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.hobby-list li {
+    width: 421px;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    color: #8c8c8c;
+    text-transform: capitalize;
+    border: 1px solid #8c8c8c;
+    background: transparent;
+    padding: 18px 30px;
+    font-size: 20px;
+}
